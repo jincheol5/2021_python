@@ -1,0 +1,5 @@
+name=input()
+n=int(input())
+f=open(name,'w')
+for i in range(n): f.write('%d\n'%(i+1))
+f.close()
